@@ -18,15 +18,10 @@ Sample o/p:
 
 '''
 
-# Step 1: Take a key-value pair from the user
 key = input("Enter the key: ")
 value = input("Enter the value: ")
 
-# Step 2: Declare an empty dictionary
 my_dict = {}
-
-# Step 3: Use the update() function to add the key-value pair
 my_dict.update({key: value})
 
-# Step 4: Print the final dictionary
 print(my_dict)
