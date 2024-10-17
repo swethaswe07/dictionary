@@ -17,7 +17,7 @@ Sample Output :
 
 '''
 
-# Step 1: Declare and initialize the dictionary
+
 n = int(input("Enter the number of items: "))
 my_dict = {}
 
@@ -26,8 +26,5 @@ for i in range(n):
     value = int(input(f"Enter value for item {key}: "))
     my_dict[key] = value
 
-# Step 2: Find the sum of all the values in the dictionary
 total_sum = sum(my_dict.values())
-
-# Step 3: Print the total sum
 print(total_sum)
